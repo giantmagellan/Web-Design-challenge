@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Bootstrap Visualization Dashboard</title>
+  <title>Max Temperature</title>
 
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -19,16 +19,16 @@
     <a class="navbar-brand" style="background-color: #0bada6;" href="latitude.html">Latitude</a>
     
 <!-- Collapse button -->
-    <button class="navbar-toggler border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<button class="navbar-toggler border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
 
 <!-- Collapsible content -->
 
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="latitude.html"><span class="sr-only">(current)</span></a>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link active-nav" href="landingPage.html"><i class="fas fa-home"></i></a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots
@@ -53,18 +53,15 @@
 <!-- Nav Bar -->
 
     <div class="container">
-  
       <div class="row">
         <div class="col-lg-7 col-md-12">
-          <div class="box">
-            <h2 class="card-title">Summary: Latitude vs X</h2>
+          <div class="box" style="padding-bottom: 5px;">
+            <h2 class="title">Latitude vs Temperature</h2>
               <hr />
-              <img class="vizualization rounded float-left" src="lat_vs_temp.png" alt="Latitude vs Temp.">
-          <div class="card-body">
-            
-            <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to a dataset on over 500 cities.
-          
-            After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and vsiualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+              <img src="lat_vs_temp.png" alt="Latitude vs Temp."/>
+                 <p>
+                     <font color="black">
+                        As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemispher tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.</p></font>
         </div>
         
       </div>

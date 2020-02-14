@@ -3,7 +3,7 @@
  */
 
 /* Styling for HTML elements */
-body {
+/* body {
     padding: 0;
     margin: 0;
     font-family: Georgia, "Times New Roman", Times, serif;
@@ -11,7 +11,7 @@ body {
     line-height: 150%;
     color: #333;
     background: #efeee7;
-  }
+  } */
   
   header {
     background: #333;
@@ -35,13 +35,21 @@ body {
     color: #d21034;
   }
 
-  p {
+  .box {
+    height: 400px;
+    padding: 20px;
+    color: black;
+    margin: 5px;
+  }
+  
+
+  /* p {
       background-color: white;
       /* width: 1300px; */
-      border: 15px whitesmoke;
+      /* border: 15px whitesmoke;
       padding: 50px;
-      margin: 40px;
-  }
+      margin: 40px; 
+  } */
   
   /* Selecting elements by class
   .container {
@@ -50,7 +58,7 @@ body {
   } */
   
   /* Selecting elements by ID */
-  #main-bio,
+  /* #main-bio,
   #contact-info,
   #bio-image {
     float: left;
@@ -79,4 +87,4 @@ body {
     height: 200px;
     margin-right: 20px;
   }
-  
+   */

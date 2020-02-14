@@ -30,15 +30,39 @@ The navbar toggle appears at this breakpoint */
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-
+    /* #nn{
+        position: relative;
+        text-align: left;
+        margin-top: 130px;
+        margin-left: 200px;
+      }
+      .line1{
+        margin-right: 200px;
+      } */
+      /* .card{
+        margin-bottom: 20px;
+        margin-left: 30px; */
+      }
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
-    
+    /* #nn{
+        position: relative;
+        text-align: left;
+        margin-top: 130px;
+        margin-left: 300px;
+      }
+      .line1{
+        margin-right: 300px;
+      }
+      .card{
+        margin-bottom: 20px;
+        margin-left: 30px;
+      }
+    } */
 }
-
-
 
 /*
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -47,4 +71,28 @@ Custom media queries
 
 @media (max-width: 950px) { 
 
+}
+
+h5 {
+    font-size: 32px;
+    color: rgb(23, 122, 117)
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: 45vw;
+    object-fit: cover;
+    align: center;
+}
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 20px; /* Added */
+    text-align: justify;
+}
+
+.btn-btn-primary {
+    font-size: 32px;
+    color: rgb(23, 122, 117);
 }

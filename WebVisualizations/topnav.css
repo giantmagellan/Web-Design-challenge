@@ -36,7 +36,7 @@
 }
 
 .navbar-custom {
-    /* background-color:#272838; */
+    background-color:#272838;
     background-color: black;
 }
 
@@ -49,7 +49,7 @@
 
 .navbar-custom .nav-item:hover .nav-link,
 .navbar-custom .nav-item:focus .nav-link{
-    color: #eee;
+    color: orangered;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -60,6 +60,7 @@
 
 .navbar-custom .dropdown-item {
     color: rgb(211, 29, 59);
+    font-size: 14px;
 }
 
 .navbar-custom .dropdown-item:hover,
