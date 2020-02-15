@@ -1,87 +1,99 @@
 
 .navbar-brand{
     font-family: 'Calibri', sans-serif;
-    color: #eee;
+    color: black;
     font-weight: bold;
     font-size: 30px;
-    margin-left: 40px;
+    margin-left: 20px;
+    background-color: rgb(29, 211, 165);
+}
+
+.navigation {
+    background-color: rgb(29, 211, 165);
+}
+
+.navbar .navbar-expand-lg .navbar-light {
+    background-color: black;
 }
 
 .navbar-brand:hover{
-    color: #eee;
+    color: orangered;
 }
+
 
 .nav-item{
     padding-left: 15px;
 }
 
 
-.col-sm-6 {
+.col-lg-7 {
     padding: 10px;
 }
 
-
-.navbar-custom .navbar-toggler {
+/* .navbar-custom .navbar-toggler {
     border-color: rgb(29, 211, 165);
-}
+} */
 
 .navbar-toggler-icon{
     padding-top: 0.25rem;
     color: rgb(29, 211, 165);
 }
 
-.navbar-custom .navbar-toggler .navbar-toggler-icon:hover{
+.navbar-toggler .border .border-black{
     color: #eee;
-    border-color: #eee;
+    border-color: black;
 }
 
-.navbar-custom {
+/* .navbar-custom {
     background-color:#272838;
     background-color: black;
-}
+} */
 
 
-.navbar-custom .navbar-nav .nav-link {
+/* .navbar-custom .navbar-nav .nav-link {
     color: rgb(29, 211, 165);
     padding-left: 10px;
     padding-right: 10px;
-}
+} */
 
-.navbar-custom .nav-item:hover .nav-link,
+/* .navbar-custom .nav-item:hover .nav-link,
 .navbar-custom .nav-item:focus .nav-link{
     color: orangered;
     padding-left: 10px;
     padding-right: 10px;
+} */
+
+.dropdown-menu {
 }
 
-.navbar-custom .dropdown-menu {
-    background-color: black;
+.nav-link .dropdown-toggle {
+    color: orangered;
 }
 
-.navbar-custom .dropdown-item {
+.nav-item .dropdown {
     color: rgb(211, 29, 59);
     font-size: 14px;
 }
 
-.navbar-custom .dropdown-item:hover,
+/* .navbar-custom .dropdown-item:hover,
 .navbar-custom .dropdown-item:focus {
     color: black;
-}
+} */
 
 
-.active-nav .fa-home{
+/* .active-nav .fa-home{
     color: #eee;
     font-size: 1.5rem;
 }
 
 .fa-home{
     font-size: 1.5rem;
-}
+} */
 
 a#navbarDropdownMenuLink.nav-link.dropdown-toggle.active-nav{
     color: #eee;
 }
 
-.navbar-custom .navbar-nav a.nav-link.active-nav{
+/* .navbar-custom .navbar-nav a.nav-link.active-nav{
     color: #eee;  
-}
+} */

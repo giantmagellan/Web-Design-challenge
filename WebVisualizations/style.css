@@ -3,7 +3,7 @@
  */
 
 /* Styling for HTML elements */
-/* body {
+body {
     padding: 0;
     margin: 0;
     font-family: Georgia, "Times New Roman", Times, serif;
@@ -11,10 +11,6 @@
     line-height: 150%;
     color: #333;
     background: #efeee7;
-  } */
-  
-  header {
-    background: #333;
   }
   
   h1 {
@@ -30,61 +26,65 @@
     font-size: 32px;
     color: rgb(23, 122, 117)
   }
+
+  h6 {
+    font-size: 1rem;
+  }
   
   a {
     color: #d21034;
   }
 
+  .container {
+    /* background-color: white; */
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .col-lg-7 {
+    position: relative;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
   .box {
-    height: 400px;
     padding: 20px;
     color: black;
-    margin: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
   }
-  
 
-  /* p {
-      background-color: white;
-      /* width: 1300px; */
-      /* border: 15px whitesmoke;
+  .vizualization {
+    width: 50% !important;
+    height: 50% !important;
+  }
+
+  .float-left {
+    float: left !important;
+  }
+
+  .rounded {
+    border-radius: .25rem !important;
+  }
+  
+  p {
+      /* background-color: white; */
+      /* width: 600px;  */
+      border: 15px grey;
       padding: 50px;
-      margin: 40px; 
-  } */
-  
-  /* Selecting elements by class
-  .container {
-    width: 1024px;
-    margin: 0 auto;
-  } */
-  
-  /* Selecting elements by ID */
-  /* #main-bio,
-  #contact-info,
-  #bio-image {
-    float: left;
+      /* margin: 40px;  */
   }
-  
-  #figure {
-    position: relative;
-  }
-  
-  #bio-name {
-    position: absolute;
-    top: 150px;
-    left: 30px;
-  }
-  
-  #main-bio {
-    width: 70%;
-  }
-  
-  #contact-info {
-    width: 30%;
-  }
-  
-  #bio-image {
-    width: 200px;
-    height: 200px;
-    margin-right: 20px;
-  }
-   */
