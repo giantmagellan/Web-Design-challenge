@@ -16,6 +16,7 @@
     background-color: black;
 }
 
+
 .navbar-brand:hover{
     color: orangered;
 }
@@ -62,9 +63,6 @@
     padding-left: 10px;
     padding-right: 10px;
 } */
-
-.dropdown-menu {
-}
 
 .nav-link .dropdown-toggle {
     color: orangered;
